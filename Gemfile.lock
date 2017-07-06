@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    equatable (0.5.0)
+    exif (1.0.1)
+    mini_exiftool (2.8.0)
+    necromancer (0.4.0)
+    pastel (0.7.1)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    tty-color (0.4.2)
+    tty-cursor (0.4.0)
+    tty-prompt (0.11.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      tty-cursor (~> 0.4.0)
+      wisper (~> 1.6.1)
+    wisper (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  exif
+  mini_exiftool
+  pastel
+  tty-prompt
+
+BUNDLED WITH
+   1.15.1
