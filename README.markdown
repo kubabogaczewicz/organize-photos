@@ -1,8 +1,8 @@
-# Ogranize photos
+# Organize photos
 
 This is a helper script I've written just for my personal usage. It helps me organize photos according to [my method](#organizing).
 
-I use Apple's Photos app and so a lot of assumptions about files, extensions, exif tags etc. are about what Photos exports or how MacOS works. 
+I use Apple's Photos app and so a lot of assumptions about files, extensions, exif tags etc. are about what Photos exports or how MacOS works.
 
 ## Usage
 
@@ -32,7 +32,7 @@ All photos and movies are exported into yearly folders. For each year I just dum
 Example:
 
 ```
-→ tree Photobank        
+→ tree Photobank
 /Users/kuba/Photobank
 ├── 2016
 │   ├── 2016-12-26\ 14-40-03.mov
@@ -42,7 +42,6 @@ Example:
     └── 2017-01-23\ 09-57-10.jpg
 
 2 directories, 4 files
-  
 ```
 
-In the past Aperture was happy to export into this format, unfortunatelly Apple's Photos cannot do that. 
+In the past Aperture was happy to export into this format, unfortunately Apple's Photos cannot do that.
