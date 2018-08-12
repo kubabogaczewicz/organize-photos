@@ -151,7 +151,7 @@ files.group_by { |media| media.create_time.year }.each do |year, yearly|
     idx = 1
     output_filename = datetime + image.extname
     while File.exist?(File.join(output_year, output_filename))
-      output_filename = [datetime, " (#{idx})", image.ext].join
+      output_filename = [datetime, " (#{idx})", image.extname].join
       idx += 1
     end
     fast_system_copy(image.filename, File.join(output_year, output_filename), options[:dry_run], options[:verbose])
